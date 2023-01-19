@@ -41,7 +41,7 @@ pilihan.forEach(function(pil) {
 
          setTimeout(function () {
             const imgComputer = document.querySelector('.img-komputer');
-            imgComputer.setAttribute('src', 'image/' + pilihanComputer + '.png');
+            imgComputer.setAttribute('src', 'img/' + pilihanComputer + '.png');
    
             const info = document.querySelector('.info');
             info.innerHTML = hasil;
